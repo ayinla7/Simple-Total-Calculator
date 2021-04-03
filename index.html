@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+        <body>
+        <div class="main">
+            
+            <div class="card" > 
+                <p class="header">SCORE CALCULATOR</p>
+            <label for="fname" class="lab">First course 1:</label> 
+                <input type="number" max="100" name="course1" id="course1" class="box" placeholder="Enter score here..."> 
+                <label for="fname" class="lab">First course 2:</label>
+                <input type="number"max="100" name="course2" id="course2" class="box" placeholder="Enter score here..."> 
+                <label for="fname" class="lab">First course 3:</label>
+                <input type="number"max="100" name="course3" id="course3" class="box" placeholder="Enter score here..."> 
+                <label for="fname" class="lab">First course 4:</label>
+                <input type="number"max="100" name="course4" id="course4" class="box" placeholder="Enter score here...">
+                <label for="fname" class="lab">First course 5:</label>
+                <input type="number"max="100" name="course5" id="course5" class="box" placeholder="Enter score here...">
+                
+                <label for="fname" class="lab">SUM TOTAL: </label>
+                <p id="ans" class="ars" >-</p>
+                    <button type="submit" id="button" onclick="getscores()"> CALCULATE</button>
+
+                    <button type="reset" id="reset" value="Reset" onclick="reset()">RESET ALL</button>
+
+                </div>
+            
+
+
+        </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
